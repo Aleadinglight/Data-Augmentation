@@ -1,12 +1,11 @@
 # Data-Augmentation
-Implement Data Augmentation In MATLAB
 
-INTRODUCTION
+#INTRODUCTION
 Neural Network and Deep Learning is becoming one the leading branch in the following years.
 Although the accuracy in detection has been significantly improved using many new state-of-theart architectures of neural network, the result can still archive a more promising result when
 applying modification to the data – data augmentation – increasing the dataset.
 
-TYPES OF DATA AUGMENTATION
+#TYPES OF DATA AUGMENTATION
 1. Random cropping center:
 In real life situation, usually the object that you wanted will be in the center of the image.
 Therefore, random crop the center will give more data on the object.
