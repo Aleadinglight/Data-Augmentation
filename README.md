@@ -47,7 +47,7 @@ shifting_color = [ 20, -20,  5, 50;
 The values of these parameters above varied for many different image and type of deep learning.
 
 ### EXAMPLE OF RESULT
-Please run the Project.m file and put on full screen to see the result with the best experience.
+Please run the `Project.m` file and put on full screen to see the result with the best experience.
 Here is an example of the output.
 
 ![Result](https://github.com/Aleadinglight/Data-Augmentation/blob/master/result.jpg)
