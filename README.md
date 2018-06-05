@@ -21,11 +21,33 @@ direction in real life tasks.
 5. Mirror:
 Flip the object horizontally can create more dataset but in the different direction.
 
+### HOW TO USE
+Edit this line of the file into your image link
+```
+% Input the original image
+original_img= imread('owl.jpg');
+```
+Change these two lines into the size of your Neural Network.
+```
+% Define the input wanted from the original image
+input_width = 500;
+input_height = 500;
+```
+Change these numbers to the value that you want your picture to be changed.
+```
+% Define how many pixels you want to shift, carefully calculate it with
+% respect to the input width and the original image width.
+shifting_value = [100,    0, -100,    0;
+                    0   100,    0, -100];
+% Define the value for color shifting
+shifting_color = [ 20, -20,  5, 50;
+                  -20,  20,  0,  0;
+                   20,  20, 50, -10];
+ ```
+The values of these parameters above varied for many different image and type of deep learning.
+
 ### EXAMPLE OF RESULT
-Please run the Project.m file and put on full screen to see the result with the best experience. At
-the beginning of the file. There is parameters that needed to be set with respect the size of
-original picture and the output picture that you need. The values of these parameters varied for
-many different image and type of deep learning. Therefore, it was set with some magic numbers,
-which is totally normal in many projects. Please consider changing it if you are using it with
-some other images that have different size.
+Please run the Project.m file and put on full screen to see the result with the best experience.
 Here is an example of the output.
+
+![Result](https://github.com/Aleadinglight/Data-Augmentation/blob/master/result.jpg)
