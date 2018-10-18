@@ -2,7 +2,7 @@
 
 ### INTRODUCTION
 Neural Network and Deep Learning is becoming one the leading branch in the following years.
-Although the accuracy in detection has been significantly improved using many new state-of-theart architectures of neural network, the result can still archive a more promising result when
+Although the accuracy in detection has been significantly improved using many new state-of-the art architectures of neural network, the result can still archive a more promising result when
 applying modification to the data – data augmentation – increasing the dataset.
 
 ### TYPES OF DATA AUGMENTATION
